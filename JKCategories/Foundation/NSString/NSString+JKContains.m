@@ -28,7 +28,17 @@
     }
     return NO;
 }
+/*** 是否包含中文 or */
 
+- (BOOL)isIncludeChinese {
+    for (int i=0; i<self.length; i++) {
+        unichar ch = [self characterAtIndex:i];
+        if (0x4e00 < ch  && ch < 0x9fff) {
+            return true;
+        }
+    }
+    return false;
+}
 /**
  *  @brief  是否包含空格
  *
