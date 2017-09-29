@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6315B0441F6B6B2A00E56A84 /* NSDictionary+property.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315B0431F6B6B2A00E56A84 /* NSDictionary+property.m */; };
 		7926E6931B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7926E6921B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m */; };
 		7982561A1B3A59060033A0C1 /* NSString+JKNormalRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 798256191B3A59060033A0C1 /* NSString+JKNormalRegex.m */; };
 		A202D9621B0F6C4400EAB199 /* NSDate+JKReporting.m in Sources */ = {isa = PBXBuildFile; fileRef = A202D9611B0F6C4400EAB199 /* NSDate+JKReporting.m */; };
@@ -367,6 +368,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6315B0421F6B6B2A00E56A84 /* NSDictionary+property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+property.h"; sourceTree = "<group>"; };
+		6315B0431F6B6B2A00E56A84 /* NSDictionary+property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+property.m"; sourceTree = "<group>"; };
 		7926E6911B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JKBackButtonItemTitle.h"; sourceTree = "<group>"; };
 		7926E6921B736E8200888EB9 /* UIViewController+JKBackButtonItemTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JKBackButtonItemTitle.m"; sourceTree = "<group>"; };
 		798256181B3A59060033A0C1 /* NSString+JKNormalRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JKNormalRegex.h"; sourceTree = "<group>"; };
@@ -2152,6 +2155,8 @@
 		A28BE2D31A3E9F48005C4AC6 /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				6315B0421F6B6B2A00E56A84 /* NSDictionary+property.h */,
+				6315B0431F6B6B2A00E56A84 /* NSDictionary+property.m */,
 				A2AF02A21A74BACB003FEC8D /* NSDictionary+JKSafeAccess.h */,
 				A2AF02A31A74BACB003FEC8D /* NSDictionary+JKSafeAccess.m */,
 				A2AF02A81A74C096003FEC8D /* NSDictionary+JKMerge.h */,
@@ -3136,6 +3141,7 @@
 				BCB9547D1B0D829800E6BA78 /* NSData+JKDataCache.m in Sources */,
 				A2CFAEF81A56D15C0004A282 /* UIColor+JKModify.m in Sources */,
 				A21F34BD1B0F221400D73A91 /* UINavigationItem+JKLock.m in Sources */,
+				6315B0441F6B6B2A00E56A84 /* NSDictionary+property.m in Sources */,
 				A202D9E31B10400100EAB199 /* BaseViewController.m in Sources */,
 				A28141B91B5BCA0500496E75 /* NSDate+JKCupertinoYankee.m in Sources */,
 				A28BE3751A3EBA7E005C4AC6 /* UIImage+JKFileName.m in Sources */,
