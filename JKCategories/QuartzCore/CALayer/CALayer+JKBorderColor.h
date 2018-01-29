@@ -13,7 +13,9 @@
 /**
  *  @author JKCategories
  *
- *  layer边框颜色
+ *  layer边框颜色 example for (add property)
  */
 @property(nonatomic, assign) UIColor *jk_borderColor;
+
+
 @end

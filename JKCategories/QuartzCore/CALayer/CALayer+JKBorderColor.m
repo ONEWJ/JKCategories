@@ -10,11 +10,20 @@
 
 @implementation CALayer (JKBorderColor)
 
+//-(void)setJk_borderColor:(UIColor *)jk_borderColor{
+//    self.borderColor = jk_borderColor.CGColor;
+//}
+//
+//- (UIColor*)jk_borderColor {
+//    return [UIColor colorWithCGColor:self.borderColor];
+//}
+
 -(void)setJk_borderColor:(UIColor *)jk_borderColor{
+//    self.jk_borderColor = jk_borderColor;// 死循环的
     self.borderColor = jk_borderColor.CGColor;
 }
 
-- (UIColor*)jk_borderColor {
+-(UIColor *)jk_borderColor{
     return [UIColor colorWithCGColor:self.borderColor];
 }
 
